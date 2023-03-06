@@ -1,6 +1,6 @@
 # KCL Team: Lions
 
-[![N|Solid](https://www.thestudentpocketguide.com/wp-content/uploads/unibots4-640x368.png)](https://unibots.uk/)
+[![Unibots UK Overview](https://www.thestudentpocketguide.com/wp-content/uploads/unibots4-640x368.png)](https://unibots.uk/)
 
 ## ⚡ Stack
 
@@ -16,13 +16,21 @@
 - [USB Stereo Speaker] - x1 - For 🦁 battle roar
 - [Red Switch] - x1
 
-## Power Management
+![Components](images/poster1_component.png)
 
-NOTE: While currently have the following equipment, these are subject to replacement based on our dynamic requirements:
+### Power Management
+
+NOTE: While we currently have the following equipment, these are subject to replacement based on our dynamic requirements:
 
 - [LiPo Battery] - x1
 - [Power Bank] - x1
 - [LM2596S] - x2 - DC/DC Buck Converter
+
+## Current Design
+
+We found Design V4's propeller mechanism vastly outweighs the pros of our previous prototypes
+
+![Components](images/table1_pugh_matrix.png)
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
