@@ -9,8 +9,13 @@ while True:
     ret, frame = videoCapture.read()
     if not ret: break
 
-    grayFrame = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
-    blurFrame = cv.GaussianBlur(grayFrame, (17,17), 0)
+    hsv = cv.cvtColor(frame, cv.COLOR_BGR2HSV)
+    blurFrame = cv.GaussianBlur(hsv, (17,17), 0)
+
+    lower_green = np.array([60, 100, 100])
+    upper_green = np.array([80, 255, 255])
+
+    blurFrame = cv.inRange(blurFrame, lower_green, upper_green)
 
     circles = cv.HoughCircles(blurFrame, cv.HOUGH_GRADIENT, 1.2, 100, param1=100, param2=30, minRadius=50, maxRadius=100)
 
