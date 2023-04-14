@@ -5,8 +5,8 @@ import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BOARD)
 GPIO.setwarnings(False)
 
-MACL = 31
-MBCL = 35
+MACL = 35
+MBCL = 37
 MA2CL = 40
 MB2CL = 36
 
